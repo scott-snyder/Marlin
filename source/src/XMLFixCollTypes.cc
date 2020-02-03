@@ -91,7 +91,7 @@ namespace marlin{
 	      
 	    }
 	    
-	    catch( ParseException ) { }
+	    catch( const ParseException& ) { }
 	    
 	    
 	    if( inType != processor->getLCIOInType( name )  ) {
@@ -121,7 +121,7 @@ namespace marlin{
 // 			<< std::endl ;
 	      
 	    }      
-	    catch( ParseException ) { }
+	    catch( const ParseException& ) { }
 	    
 	    
 	    if( outType != processor->getLCIOOutType( name )  ) {

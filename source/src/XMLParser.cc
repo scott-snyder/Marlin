@@ -383,7 +383,7 @@ namespace marlin{
 
             try{  inputLine = getAttribute( par , "value" )  ; 
             }      
-            catch( ParseException ) {
+            catch( const ParseException& ) {
 
                 if( par->FirstChild() )
                     inputLine =  par->FirstChild()->Value() ;
@@ -433,7 +433,7 @@ namespace marlin{
         if( par->ToElement() )
           par->ToElement()->SetAttribute( "value", inputLine );
       }      
-      catch( ParseException ) {
+      catch( const ParseException& ) {
 
           if( par->FirstChild() )
               par->FirstChild()->SetValue( inputLine ) ;
@@ -479,7 +479,7 @@ namespace marlin{
                 lcioInTypes.push_back( colType ) ; 
 
             }      
-            catch( ParseException ) { }
+            catch( const ParseException& ) { }
 
             try{  
 
@@ -489,7 +489,7 @@ namespace marlin{
                 lcioOutTypes.push_back( colType ) ; 
 
             }      
-            catch( ParseException ) { }
+            catch( const ParseException& ) { }
 
 
 
