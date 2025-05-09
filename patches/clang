@@ -1,0 +1,8 @@
+Bottom: ed97e35381e416735d7a1c407b695f44ed8a7869
+Top:    ed97e35381e416735d7a1c407b695f44ed8a7869
+Author: sss <sss@karma>
+Date:   2025-05-09 09:17:35 -0400
+
+Fix clang warnings.
+
+Unused variables.
