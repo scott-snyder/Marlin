@@ -46,7 +46,7 @@ ENDIF()
 
 AUX_SOURCE_DIRECTORY( ./src library_sources )
 AUX_SOURCE_DIRECTORY( ./tinyxml/src tinyxml_sources )
-INCLUDE_DIRECTORIES( SYSTEM tinyxml/include )
+INCLUDE_DIRECTORIES( tinyxml/include )
 
 # need to remove ProcessorLoader.cc and Marlin.cc from library sources
 LIST( REMOVE_ITEM library_sources ./src/Marlin.cc ./src/ProcessorLoader.cc )
