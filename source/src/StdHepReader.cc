@@ -10,6 +10,9 @@
 #include "UTIL/LCTOOLS.h"
 
 
+using namespace lcio;
+
+
 namespace marlin{
 
 
