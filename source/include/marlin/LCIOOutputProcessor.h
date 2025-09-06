@@ -6,8 +6,6 @@
 #include "IO/LCWriter.h"
 
 
-using namespace lcio ;
-
 namespace IMPL{
   class LCCollectionVec ;
 }
@@ -47,7 +45,7 @@ namespace marlin{
    */
   class LCIOOutputProcessor : public Processor {
   
-    typedef std::vector< LCCollectionVec* > SubSetVec ;
+    typedef std::vector< lcio::LCCollectionVec* > SubSetVec ;
 
 
   public:  
@@ -70,11 +68,11 @@ namespace marlin{
 
     /** Write every run header.
      */
-    virtual void processRunHeader( LCRunHeader* run) ;
+    virtual void processRunHeader( lcio::LCRunHeader* run) ;
 
     /** Write every event.
      */
-    virtual void processEvent( LCEvent * evt ) ; 
+    virtual void processEvent( lcio::LCEvent * evt ) ; 
 
     /** Close outputfile.
      */
@@ -83,7 +81,7 @@ namespace marlin{
     /** Drops the collections specified in the steering file parameters DropCollectionNames and 
      *  DropCollectionTypes. 
      */
-    void dropCollections( LCEvent * evt ) ;
+    void dropCollections( lcio::LCEvent * evt ) ;
 
 
   protected:
@@ -91,16 +89,16 @@ namespace marlin{
     std::string _lcioOutputFile="";
     std::string _lcioWriteMode="";
 
-    StringVec _dropCollectionNames{};
-    StringVec _dropCollectionTypes{};
-    StringVec _keepCollectionNames{};
-    StringVec _fullSubsetCollections{};
+    lcio::StringVec _dropCollectionNames{};
+    lcio::StringVec _dropCollectionTypes{};
+    lcio::StringVec _keepCollectionNames{};
+    lcio::StringVec _fullSubsetCollections{};
 
     int _splitFileSizekB=1992294;
 
     SubSetVec _subSets{};
 
-    LCWriter* _lcWrt=NULL;
+    lcio::LCWriter* _lcWrt=NULL;
     int _nRun=-1;
     int _nEvt=-1;
     int _compressionLevel{6};
