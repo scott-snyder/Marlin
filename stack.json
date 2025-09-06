@@ -1,13 +1,12 @@
 {
   "version": 5,
-  "prev": "a79fe40c737bdce1d704621e044761169d804d98",
-  "head": "3bb5f85f672e44bb5a9369a91a4ab6c7b40f66a5",
+  "prev": "ff5eaaeef81a9c5490c9b1b98799b97b36eaec0b",
+  "head": "1db46590e83bd81a8a159e1ca9c3d20608407c69",
   "applied": [
     "clang",
     "cmakewarn",
     "nosystem",
-    "noexcept",
-    "refresh-temp"
+    "noexcept"
   ],
   "unapplied": [
     "using"
@@ -21,13 +20,10 @@
       "oid": "18408448d9ad1c69f2f7977a2f6a1036977518aa"
     },
     "noexcept": {
-      "oid": "9f0b95fb432860415a8053e2d426c331a8157eff"
+      "oid": "1db46590e83bd81a8a159e1ca9c3d20608407c69"
     },
     "nosystem": {
       "oid": "1e0afe1aee6e56c0daadbdfc3b9d5591467bb5a8"
-    },
-    "refresh-temp": {
-      "oid": "3bb5f85f672e44bb5a9369a91a4ab6c7b40f66a5"
     },
     "using": {
       "oid": "34de146a3502d57e402d120f2bcb5cabd5d2fdb2"
