@@ -64,11 +64,11 @@ class AIDAProcessor : public marlin::Processor {
 
   /** nothing processed here
    */
-  virtual void processEvent( lcio::LCEvent * evt ) ; 
+  virtual void processEvent( lcio::LCEvent * evt ) ;
 
    /** Fills plot with processing time
     */
-  virtual void check( lcio::LCEvent * evt ) ; 
+  virtual void check( lcio::LCEvent * evt ) ;
 
 
   /** Called after data processing for clean up.

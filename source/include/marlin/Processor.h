@@ -115,7 +115,7 @@ struct ExternalProcessorMgrAccessor {
     /** Called for every run, e.g. overwrite to initialize run dependent 
      *  histograms.
      */
-    virtual void processRunHeader( lcio::LCRunHeader* ) { } 
+    virtual void processRunHeader( lcio::LCRunHeader* ) { }
 
     /** Called for every event - the working horse. 
      */

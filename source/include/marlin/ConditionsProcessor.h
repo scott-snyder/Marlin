@@ -72,7 +72,7 @@ class ConditionsProcessor : public Processor {
   
   /** Updates all registered conditions handlers and adds the data to the event.
    */
-  virtual void processEvent( lcio::LCEvent * evt ) ; 
+  virtual void processEvent( lcio::LCEvent * evt ) ;
   
   
 //   virtual void check( LCEvent * evt ) ; 

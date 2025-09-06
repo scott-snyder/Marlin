@@ -83,13 +83,13 @@ public:
   void dumpRegisteredProcessorsXML() ;
   
   virtual void init() ;
-  virtual void processRunHeader( lcio::LCRunHeader* ) ;   
+  virtual void processRunHeader( lcio::LCRunHeader* ) ;
   virtual void processEvent( lcio::LCEvent* ) ;
   virtual void end() ;
   
   
-  virtual void modifyRunHeader( lcio::LCRunHeader*) ; 
-  virtual void modifyEvent( lcio::LCEvent *) ; 
+  virtual void modifyRunHeader( lcio::LCRunHeader*) ;
+  virtual void modifyEvent( lcio::LCEvent *) ;
 
   /** Calls readDataSource() for all Processors of type DataSourceProcessor.
    */

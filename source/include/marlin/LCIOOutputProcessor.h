@@ -72,7 +72,7 @@ namespace marlin{
 
     /** Write every event.
      */
-    virtual void processEvent( lcio::LCEvent * evt ) ; 
+    virtual void processEvent( lcio::LCEvent * evt ) ;
 
     /** Close outputfile.
      */

@@ -34,10 +34,10 @@ class Statusmonitor : public marlin::Processor {
   
   /** Called for every event - the working horse.
    */
-  virtual void processEvent( lcio::LCEvent * evt ) ; 
+  virtual void processEvent( lcio::LCEvent * evt ) ;
   
   
-  virtual void check( lcio::LCEvent * evt ) ; 
+  virtual void check( lcio::LCEvent * evt ) ;
   
   
   /** Called after data processing for clean up.

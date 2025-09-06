@@ -86,11 +86,11 @@ namespace marlin{
     
     /** Updates all registered conditions handlers and adds the data to the event.
      */
-    virtual void processEvent( lcio::LCEvent * evt ) ; 
+    virtual void processEvent( lcio::LCEvent * evt ) ;
     
     /** Creates some checkplots.
      */
-    virtual void check( lcio::LCEvent * evt ) ; 
+    virtual void check( lcio::LCEvent * evt ) ;
     
     /** Called after data processing for clean up.
      */
