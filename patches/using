@@ -1,0 +1,8 @@
+Bottom: c3dce2d5d95a54b6cebb3be7f4a15586a5fbb1ad
+Top:    c3dce2d5d95a54b6cebb3be7f4a15586a5fbb1ad
+Author: sss <sss@karma>
+Date:   2025-09-05 20:38:59 -0400
+
+Fix placement of using directives.
+
+Don't put using directives in headers in the global namespace.
