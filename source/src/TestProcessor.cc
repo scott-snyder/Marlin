@@ -8,6 +8,10 @@
 
 #include "streamlog/streamlog.h"
 
+
+using namespace lcio;
+
+
 namespace marlin{
 
 

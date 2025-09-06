@@ -18,6 +18,9 @@
 #include <AIDA/ICloud1D.h>
 
 
+using namespace lcio;
+
+
 namespace marlin { 
   
   AIDAProcessor aAIDAProcessor ;
