@@ -19,7 +19,6 @@ namespace AIDA{
 
 class HistoManager ;
 
-using namespace lcio ;
 
 namespace marlin {
 
@@ -61,15 +60,15 @@ class AIDAProcessor : public marlin::Processor {
 
   /** Called for every run.
    */
-  virtual void processRunHeader( LCRunHeader* run ) ;
+  virtual void processRunHeader( lcio::LCRunHeader* run ) ;
 
   /** nothing processed here
    */
-   virtual void processEvent( LCEvent * evt ) ; 
+  virtual void processEvent( lcio::LCEvent * evt ) ; 
 
    /** Fills plot with processing time
     */
-   virtual void check( LCEvent * evt ) ; 
+  virtual void check( lcio::LCEvent * evt ) ; 
 
 
   /** Called after data processing for clean up.

@@ -1,6 +1,8 @@
 #include "marlin/ProcessorParameter.h"
 #include <algorithm>
 
+using namespace lcio;
+
 namespace marlin {
 
 //   const std::string ProcessorParameter::type() { 
@@ -49,7 +51,7 @@ namespace marlin {
     }
   }
   template<>
-  void setProcessorParameter<lcio::IntVec>( ProcessorParameter_t<lcio::IntVec>* procParam ,  StringParameters* params ) {
+  void setProcessorParameter<IntVec>( ProcessorParameter_t<IntVec>* procParam ,  StringParameters* params ) {
     if( params->isParameterSet( procParam->name() ) ) {
       procParam->_parameter.clear() ;
       procParam->_valueSet = true ;
@@ -57,7 +59,7 @@ namespace marlin {
     params->getIntVals( procParam->_name,  procParam->_parameter ) ; 
   }
   template<>
-  void setProcessorParameter<lcio::FloatVec>( ProcessorParameter_t<lcio::FloatVec>* procParam ,  StringParameters* params ) {
+  void setProcessorParameter<FloatVec>( ProcessorParameter_t<FloatVec>* procParam ,  StringParameters* params ) {
     if( params->isParameterSet( procParam->name() ) ) {
       procParam->_parameter.clear() ;
       procParam->_valueSet = true ;
@@ -65,7 +67,7 @@ namespace marlin {
     params->getFloatVals( procParam->_name,  procParam->_parameter ) ; 
   }
   template<>
-  void setProcessorParameter<lcio::StringVec>( ProcessorParameter_t<lcio::StringVec>* procParam ,  StringParameters* params ) {
+  void setProcessorParameter<StringVec>( ProcessorParameter_t<StringVec>* procParam ,  StringParameters* params ) {
     if( params->isParameterSet( procParam->name() ) ) {
       procParam->_parameter.clear() ;
       procParam->_valueSet = true ;
