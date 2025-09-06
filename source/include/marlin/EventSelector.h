@@ -8,8 +8,6 @@
 #include <set>
 #include <map>  // pair
 
-using namespace lcio ;
-using namespace marlin ;
 
 
 /** Simple event selector processor. Returns true if the given event 
@@ -42,15 +40,15 @@ namespace marlin {
 
     /** Called for every run.
      */
-    virtual void processRunHeader( LCRunHeader* run ) ;
+    virtual void processRunHeader( lcio::LCRunHeader* run ) ;
 
     /** Called for every event - the working horse.
      */
-    virtual void processEvent( LCEvent * evt ) ;
+    virtual void processEvent( lcio::LCEvent * evt ) ;
 
-    virtual void check( LCEvent * evt ) ;
+    virtual void check( lcio::LCEvent * evt ) ;
 
-    virtual void modifyEvent( LCEvent *evt ) ;
+    virtual void modifyEvent( lcio::LCEvent *evt ) ;
 
     /** Called after data processing for clean up.
      */
@@ -63,7 +61,7 @@ namespace marlin {
 
     /** Input collection name.
      */
-    IntVec _evtList{};
+    lcio::IntVec _evtList{};
     SET _evtSet{};
 
     int _nRun=-1;
