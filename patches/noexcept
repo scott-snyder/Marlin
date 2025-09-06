@@ -1,0 +1,6 @@
+Bottom: c3dce2d5d95a54b6cebb3be7f4a15586a5fbb1ad
+Top:    c3dce2d5d95a54b6cebb3be7f4a15586a5fbb1ad
+Author: sss <sss@karma>
+Date:   2025-09-05 22:02:28 -0400
+
+throw() is deprecated.  Use noexcept instead.
