@@ -9,8 +9,6 @@
 #include <utility>  // pair
 #include <memory>
 
-using namespace lcio ;
-using namespace marlin ;
 
 namespace UTIL{
   class CheckCollections ;
@@ -56,15 +54,15 @@ namespace marlin {
 
     /** Called for every run.
      */
-    virtual void processRunHeader( LCRunHeader* run ) ;
+    virtual void processRunHeader( lcio::LCRunHeader* run ) ;
 
     /** Called for every event - the working horse.
      */
-    virtual void processEvent( LCEvent * evt ) ;
+    virtual void processEvent( lcio::LCEvent * evt ) ;
 
-    virtual void check( LCEvent * evt ) ;
+    virtual void check( lcio::LCEvent * evt ) ;
 
-//    virtual void modifyEvent( LCEvent *evt ) ;
+//    virtual void modifyEvent( lcio::LCEvent *evt ) ;
 
     /** Called after data processing for clean up.
      */
@@ -75,7 +73,7 @@ namespace marlin {
 
   protected:
 
-    StringVec _colList{};
+    lcio::StringVec _colList{};
     Vector _patchCols{};
     bool _parseFiles = false ;
 
