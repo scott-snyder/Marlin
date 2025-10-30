@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "7d575607cfa08d5cf59be9c3cdc46f20dd484014",
-  "head": "663874b623fea204139e76a9cd30776383cda767",
+  "prev": "f333d9542b7ff909e9f1d56e2baf3e49aa3bd9b1",
+  "head": "795957419a1784cee8e7f2f2578a23d8f79455fd",
   "applied": [
     "clang",
     "cmakewarn",
@@ -16,16 +16,16 @@
       "oid": "022ec5436c6a7e06772ffb2e7675ef82209ebe35"
     },
     "cmakewarn": {
-      "oid": "18408448d9ad1c69f2f7977a2f6a1036977518aa"
+      "oid": "351d3969b3bc6e7e43e71851f95ab264640bfd63"
     },
     "noexcept": {
-      "oid": "1db46590e83bd81a8a159e1ca9c3d20608407c69"
+      "oid": "e488ffb0c5bdfc3fc112798c487a18963ddd413e"
     },
     "nosystem": {
-      "oid": "1e0afe1aee6e56c0daadbdfc3b9d5591467bb5a8"
+      "oid": "7504dcf64295d8d1793ffbe78d9bf5cf4532a1fa"
     },
     "using": {
-      "oid": "663874b623fea204139e76a9cd30776383cda767"
+      "oid": "795957419a1784cee8e7f2f2578a23d8f79455fd"
     }
   }
 }
