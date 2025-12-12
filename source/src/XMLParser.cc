@@ -1,3 +1,7 @@
+#if __GNUC__ >= 16
+# pragma GCC diagnostic ignored "-Warray-bounds"
+#endif
+
 
 #include "marlin/XMLParser.h"
 #include "marlin/Exceptions.h"
