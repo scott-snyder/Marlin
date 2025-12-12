@@ -1,18 +1,22 @@
 {
   "version": 5,
-  "prev": "89e55a87c5b5786424cdfbf94cb2920a81781da7",
-  "head": "b8c6ca86c4c3bc4c9e4944ef3b34d9babbbf3f1e",
+  "prev": "1bdae1ea0767cac16db34f3222368340933fa20d",
+  "head": "6ddc11d3c0d57b02c9723db7cb9d1b8a73d89d36",
   "applied": [
     "cmakewarn",
     "nosystem",
     "noexcept",
-    "using"
+    "using",
+    "gccbug-newxx"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
       "oid": "2d4b6eeef420d979094af116c59e3b3a94419b69"
+    },
+    "gccbug-newxx": {
+      "oid": "6ddc11d3c0d57b02c9723db7cb9d1b8a73d89d36"
     },
     "noexcept": {
       "oid": "f7e79e5f45e89e6e7ca3dc1583fb828808d2df22"
