@@ -1,23 +1,22 @@
 {
   "version": 5,
-  "prev": "f6d8c2e8b5ba7901a9750619f072eb3f0f0ce677",
-  "head": "d873dc7167eac4dc7388c659831660e95f07c32e",
+  "prev": "50a040054d38d6b1e39b83d693b36abc9c81d0b9",
+  "head": "7209de7b12b8d8cc5f3dc24978e4b4c05c8055da",
   "applied": [
     "nosystem",
-    "noexcept"
-  ],
-  "unapplied": [
+    "noexcept",
     "using",
     "gccbug-newxx",
     "cmakewarn"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
-      "oid": "c55d8bafd4c72ce400ee18a1815debe0fa3a28b1"
+      "oid": "7209de7b12b8d8cc5f3dc24978e4b4c05c8055da"
     },
     "gccbug-newxx": {
-      "oid": "346ecad6a7372540084ee56d42fe41a1cd02423d"
+      "oid": "303d5184bfb8d58486f0b66b7f8467b0881e2b5c"
     },
     "noexcept": {
       "oid": "d873dc7167eac4dc7388c659831660e95f07c32e"
@@ -26,7 +25,7 @@
       "oid": "61f70dc8263d33bacaccb8a9441243f5e7668558"
     },
     "using": {
-      "oid": "929ce6b3be19a2c9b8526e69cf7dc4ec00fb3f8f"
+      "oid": "520f7d5968e0d2347209a71c63cfb12f5e264a98"
     }
   }
 }
