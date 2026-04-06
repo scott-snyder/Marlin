@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "8ffa2d99b82b000592214b84b24c1fa64d099579",
+  "prev": "c4aa9abaceaf0991a8b57b3ba6449af2c1a879d2",
   "head": "f108208692b828a8c958bd2d897c99d9dbed7783",
   "applied": [
     "nosystem",
@@ -9,10 +9,10 @@
     "cmakewarn",
     "effc"
   ],
-  "unapplied": [
+  "unapplied": [],
+  "hidden": [
     "ci"
   ],
-  "hidden": [],
   "patches": {
     "ci": {
       "oid": "5f69cf99dc0795a55212f5689efc95292183fe33"
