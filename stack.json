@@ -1,31 +1,32 @@
 {
   "version": 5,
-  "prev": "317b1234bee3eda7b208a0df6616b14b3bb15c14",
-  "head": "3e70af6cff4f21dc34782960252e503ebbc354dd",
+  "prev": "09315c03eca5c0091ede9973c90e27ae08d927d1",
+  "head": "346ecad6a7372540084ee56d42fe41a1cd02423d",
   "applied": [
-    "cmakewarn",
     "nosystem",
     "noexcept",
     "using",
     "gccbug-newxx"
   ],
-  "unapplied": [],
+  "unapplied": [
+    "cmakewarn"
+  ],
   "hidden": [],
   "patches": {
     "cmakewarn": {
       "oid": "2d4b6eeef420d979094af116c59e3b3a94419b69"
     },
     "gccbug-newxx": {
-      "oid": "3e70af6cff4f21dc34782960252e503ebbc354dd"
+      "oid": "346ecad6a7372540084ee56d42fe41a1cd02423d"
     },
     "noexcept": {
-      "oid": "f7e79e5f45e89e6e7ca3dc1583fb828808d2df22"
+      "oid": "cd21f76edda8d2fe7693e105e509fd7d465330df"
     },
     "nosystem": {
-      "oid": "3eb90272454daf4005976396dfcfa64e9c7d2a19"
+      "oid": "358adcbb58d19fbc4301e35587992a05c90c22c6"
     },
     "using": {
-      "oid": "b8c6ca86c4c3bc4c9e4944ef3b34d9babbbf3f1e"
+      "oid": "929ce6b3be19a2c9b8526e69cf7dc4ec00fb3f8f"
     }
   }
 }
