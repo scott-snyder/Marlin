@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "5a6715b2812d43f2d78860af7e840cad072f7da5",
-  "head": "f719ee7a1f77fe5eecde1152314aabccae294b5b",
-  "applied": [],
-  "unapplied": [
+  "prev": "f6d8c2e8b5ba7901a9750619f072eb3f0f0ce677",
+  "head": "d873dc7167eac4dc7388c659831660e95f07c32e",
+  "applied": [
     "nosystem",
-    "noexcept",
+    "noexcept"
+  ],
+  "unapplied": [
     "using",
     "gccbug-newxx",
     "cmakewarn"
@@ -19,10 +20,10 @@
       "oid": "346ecad6a7372540084ee56d42fe41a1cd02423d"
     },
     "noexcept": {
-      "oid": "cd21f76edda8d2fe7693e105e509fd7d465330df"
+      "oid": "d873dc7167eac4dc7388c659831660e95f07c32e"
     },
     "nosystem": {
-      "oid": "358adcbb58d19fbc4301e35587992a05c90c22c6"
+      "oid": "61f70dc8263d33bacaccb8a9441243f5e7668558"
     },
     "using": {
       "oid": "929ce6b3be19a2c9b8526e69cf7dc4ec00fb3f8f"
