@@ -1,6 +1,0 @@
-Bottom: ef17000f2582ccfe80f81d59a7dd4b7b98efea25
-Top:    ef17000f2582ccfe80f81d59a7dd4b7b98efea25
-Author: sss <sss@karma>
-Date:   2026-04-06 11:24:57 -0400
-
-throw() is deprecated.  Use noexcept instead.
