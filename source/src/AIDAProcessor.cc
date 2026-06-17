@@ -20,6 +20,7 @@
 namespace marlin {
 
 AIDAProcessor aAIDAProcessor;
+using namespace lcio;
 
 AIDAProcessor::AIDAProcessor()
     : Processor("AIDAProcessor"), _analysisFactory(NULL), _treeFactory(NULL),
